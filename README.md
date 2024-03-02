@@ -16,3 +16,7 @@ npx mudslide@latest -V
 npx mudslide@latest login
 
 bash checker.sh
+
+crontab -e
+
+0 9 * * * /bin/bash /path/checker.sh
