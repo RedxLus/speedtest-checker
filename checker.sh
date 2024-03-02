@@ -18,7 +18,7 @@ send_notification() {
 
 main() {
     # Numero de veces se ejecuta el checker
-    count=1
+    count=0
 
     while [ $count -lt 2 ]; do
         limit="300"
